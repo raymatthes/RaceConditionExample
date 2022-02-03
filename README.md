@@ -1,12 +1,12 @@
 # Getting Started
 
-## run the default
+## Run the default
 
 ```
 ./gradlew run
 ```
 
-## choose different tests
+## Choose different tests
 
 ```
 ./gradlew run --args='RaceCondition'
@@ -15,4 +15,12 @@
 ./gradlew run --args='SynchronizedMethod'
 ./gradlew run --args='AtomicInteger'
 ./gradlew run --args='SynchronizedMethodFlip'
+```
+
+## Correct results
+
+This is the correct output, anything less indicates threading errors.
+
+```
+Count = 10000
 ```
